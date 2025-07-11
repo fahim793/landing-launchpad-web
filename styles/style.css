@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8faff;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+
+.hero-section {
+  background-image: url('../Assets/Hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 600px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.logo {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+
+.signup-btn {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.banner-content {
+  margin-top: 80px;
+  max-width: 800px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  color: #4e4e4e;
+}
+
+.stay-focused-btn {
+  font-size: 16px;
+  padding: 15px 30px;
+}
+
+.action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.action-content-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.action-content-left h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.action-content-left p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.launch-preview-btn {
+  font-size: 16px;
+  padding: 15px 30px;
+}
+
+.action-content-right {
+  flex: 1;
+}
+
+.action-content-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.productive-users-section {
+  background-color: #f1f3f9;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.productive-users-section h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-item .stat-number {
+  font-size: 48px;
+  color: #4E47FF;
+}
+
+.stat-item .stat-label {
+  font-size: 18px;
+  color: #555;
+}
+
+.productive-users-section {
+  background-color: #f1f3f9;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.productive-users-section h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-item .stat-number {
+  font-size: 48px;
+  color: #4E47FF;
+}
+
+.stat-item .stat-label {
+  font-size: 18px;
+  color: #555;
+}
+
+.user-reviews-section {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #f8faff;
+}
+
+.user-reviews-section h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.review-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+}
+
+.review-card h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.review-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+}
+
+.reviewer-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.reviewer-details .reviewer-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.reviewer-details .review-date {
+  font-size: 13px;
+  color: #777;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  gap: 80px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.contact-left h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-right {
+  flex: 1;
+  min-width: 350px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: bold;
+}
+
+.form-group input[type="email"],
+.form-group input[type="text"],
+.form-group textarea {
+  width: calc(100% - 20px);
+  padding: 12px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #aaa;
+}
+
+.contact-right .get-in-touch-btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+}
+
+
+.footer-section {
+  background-color: #FFFFFF;
+  padding: 0px 20px;
+  text-align: center;
+  color: #555;
+}
+
+.footer-logo {
+  font-family: "Inter", sans-serif;
+  ;
+  font-size: 60px;
+  font-weight: bold;
+  color: #4E47FF;
+  margin-bottom: 20px;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #4E47FF;
+}
+
+button,
+.signup-btn,
+.stay-focused-btn,
+.launch-preview-btn,
+.get-in-touch-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffff;
+  background-color: #4E47FF;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+
+button:hover,
+.signup-btn:hover,
+.stay-focused-btn:hover,
+.launch-preview-btn:hover,
+.get-in-touch-btn:hover {
+  background-color:#cad0e2;
+  color: #4E47FF;
+  transform: translateY(-2px);
+}
