@@ -82,18 +82,11 @@ body {
 
 .action-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 50px 20px;
-  gap: 30px;
-  flex-wrap: wrap;
-  max-width: 1200px;
+  width: 1144px;
   margin: 0 auto;
-}
-
-.action-content-left {
-  flex: 1;
-  min-width: 300px;
 }
 
 .action-content-left h2 {
@@ -113,15 +106,11 @@ body {
   padding: 15px 30px;
 }
 
-.action-content-right {
-  flex: 1;
-}
 
 .action-content-right img {
-  max-width: 100%;
+  max-width: 1144px;
   height: auto;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .productive-users-section {
@@ -130,7 +119,7 @@ body {
   text-align: center;
   border-radius: 15px;
   margin: 50px auto;
-  max-width: 1000px;
+  width: 1140px;
 }
 
 .productive-users-section h2 {
